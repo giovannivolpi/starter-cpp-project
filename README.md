@@ -1,4 +1,4 @@
-# A C++ project with dev container
+# A C++ project with a dev container
 
 This repository is a C++ workspace supported by a cross-platform Docker-based dev container. The header (`.h`) files should be placed under the `include/` folder, while the implementation (`.cpp`) files should be placed under the `src/` folder.
 
