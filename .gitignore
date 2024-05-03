@@ -28,3 +28,4 @@ out
 
 # Exceptions
 !build/.keep
+!build/*.txt
