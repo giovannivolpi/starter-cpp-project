@@ -1,4 +1,4 @@
-# A C++ project repository
+# A C++ project with dev container
 
 This repository is a C++ workspace supported by a cross-platform Docker-based dev container. The header (`.h`) files should be placed under the `include/` folder, while the implementation (`.cpp`) files should be placed under the `src/` folder.
 
@@ -26,7 +26,7 @@ cmake ..
 ```
 
 ## Compiling and running the program
-Using the terminal make sure you are inside the `build` folder. Adjust and run the command:
+Using the terminal, make sure you are inside the `build/` folder. Adjust and run the command:
 
 
 ```
