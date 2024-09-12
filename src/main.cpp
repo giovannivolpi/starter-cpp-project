@@ -1,12 +1,23 @@
 #include <iostream>
+using namespace std;
 
 int main(){
     // TODO
-    std::cout << "What score did oyu get for Notebook1" << std::endl;
+    cout << "What score did oyu get for Notebook1";
     double score;
-    std::cin >> score;
+    cin >> score;
 
-    std::cout << score;
+    char grade;
+    if(score >= 9){
+        grade = 'A';
+    } else if(score >= 8){
+        grade = 'B';
+    } else if(score >= 7){
+        grade = 'C';
+    } else {
+        grade = 'D';
+    }
+    cout << "A score of" << score << "means" << grade << endl;
     
     return 0;
 }
