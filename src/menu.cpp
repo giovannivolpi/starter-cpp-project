@@ -1,7 +1,12 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
+int add();
+void mult_table(int);
+
 int main() {
+    bool keep_in_loop = true;
     do {
         cout << "welcome to our simple menu program" << endl;
         cout << "select an option from the following:" << endl;
@@ -14,18 +19,50 @@ int main() {
 
         switch(choice){
             case 'a':
+                cout << "result:" << add() << endl;
                 break;
             case 'm':
+                cout <<
                 break;
             case 'q':
+                keep_in_loop = false;
+                cout << "goodbye";
                 break;
             default:
                 cout << "invalid choice. Try again." << endl;
         }
 
         
-    }while(true);
+    }while(keep_in_loop);
 
 
     return 0;
 }
+
+int add(){
+    bool keep_in = true;
+    int a, b;
+
+    cout << "enter 2 intigers:";
+    cin >> a >> b;
+
+
+    return add(a, b);
+}
+
+int add(int a, int b){
+    return a + b; //overloading, using same name for other int. Can ply work if functions are DIFFERENT.
+}
+
+void mult_table(int size){
+
+    for(int r = 0; r < size; r++){
+        for(int c = 0; c < size; c++){
+            cout << setw(4) << (r + 1) * (c + 1);
+        }
+        cout <<endl;
+    }
+
+}
+
+void print_rectangle_using_stars(int l, int w, bool filled); //TODO
