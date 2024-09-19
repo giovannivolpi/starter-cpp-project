@@ -1,12 +1,17 @@
 #include <iostream>
 #include <iomanip>
+#include <cmath>
+#include <cstdlib>
 using namespace std;
 
 int add();
 void mult_table(int);
 
 int main() {
+    const double PI = 3.1415;
     bool keep_in_loop = true;
+    cout << cos(60 * PI / 180);
+
     do {
         cout << "welcome to our simple menu program" << endl;
         cout << "select an option from the following:" << endl;
@@ -22,7 +27,7 @@ int main() {
                 cout << "result:" << add() << endl;
                 break;
             case 'm':
-                cout <<
+                cout << "result:" << add() << endl;
                 break;
             case 'q':
                 keep_in_loop = false;
