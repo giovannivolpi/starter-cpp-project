@@ -39,5 +39,9 @@ int main(){
     cout << endl << "string size is: " << greeting.size() << "   " << count << endl; //make week05 && ./week05
 
 
+    greeting.erase(7, 10);
+    greeting.replace(7, 10, " ");
+    cout << greeting << endl;
+
     return 0;
 }
