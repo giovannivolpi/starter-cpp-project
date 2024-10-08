@@ -1,10 +1,14 @@
+
+
+// process when editing, make ____, ./week05
+
+/* 
+
 #include <iostream>
 #include <array>
 #include <vector>
 #include <string>
 #include <iomanip>
-
-// process when editing, make ____, ./week05
 
 using namespace std;
 
@@ -44,4 +48,17 @@ int main(){
     cout << greeting << endl;
 
     return 0;
-}
+}*/
+
+
+#include <iostream>
+
+using namespace std;
+
+
+
+
+
+
+
+
