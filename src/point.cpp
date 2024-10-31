@@ -13,8 +13,10 @@ Point& Point::moveTo(int x, int y){
 }
 
 
-void Point::print()const{
+const Point& Point::print()const{
     std::cout << '('<< x << ',' << 'y' <<')';
+
+    return *this;
 }
 
 Point::Point(){} //need the wavy symbol on the second point 
